@@ -1,0 +1,25 @@
+{
+  "name": "reto_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[CReto 7 headers\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Capp.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres16081990/reto_7_headers.git"
+  },
+  "author": "Joaquin Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres16081990/reto_7_headers/issues"
+  },
+  "homepage": "https://github.com/andres16081990/reto_7_headers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "ua-parser-js": "^0.7.28"
+  }
+}
