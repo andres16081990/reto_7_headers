@@ -11,7 +11,7 @@ const port = 3000;
 app.get('/',(req,res)=>{
     const {browser} = parser(req.headers['user-agent'])
     if(browser.name === undefined){
-        res.status(200).send(`mi-super-Navegador`,null, '  ')
+        res.status(200).send(`mi-super-navegador`,null, '  ')
     }
     res.status(200).send(`mi-super-${browser.name}`,null, '  ')
     //console.log(req.headers['user-agent'])
