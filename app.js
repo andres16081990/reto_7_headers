@@ -10,7 +10,7 @@ const port = 3000;
 
 app.get('/',(req,res)=>{
     const {browser} = parser(req.headers['user-agent'])
-    res.status(200).send(JSON.stringify(`mi-super-${browser.name}`))
+    res.status(200).send(`mi-super-${browser.name}`)
     //console.log(req.headers['user-agent'])
 })
 
